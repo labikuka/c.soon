@@ -1,1 +1,0 @@
-Labinot Kuka CEH
