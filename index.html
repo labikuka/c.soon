@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Labinot Kuka - Cybersecurity Professional</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" class="logo-link">
+                    <span class="logo-text">LK</span>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#tools" class="nav-link">Tools</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="name-highlight">Labinot Kuka</span>
+                    </h1>
+                    <p class="hero-subtitle">Cybersecurity Professional & Ethical Hacker</p>
+                    <p class="hero-description">
+                        Protecting digital infrastructure through advanced security analysis, 
+                        penetration testing, and vulnerability assessment.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#tools" class="btn btn-primary">Explore Tools</a>
+                        <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        I am a dedicated cybersecurity professional with expertise in ethical hacking, 
+                        penetration testing, and security analysis. My passion lies in identifying 
+                        vulnerabilities and strengthening digital defenses to protect organizations 
+                        from cyber threats.
+                    </p>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Security Analysis</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-bug"></i>
+                            <span>Penetration Testing</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-lock"></i>
+                            <span>Vulnerability Assessment</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-network-wired"></i>
+                            <span>Network Security</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cybersecurity Tools Section -->
+    <section id="tools" class="tools">
+        <div class="container">
+            <h2 class="section-title">Cybersecurity Tools</h2>
+            <p class="section-subtitle">Professional tools and frameworks I utilize for security assessments</p>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="tool-name">Nikto</h3>
+                    <p class="tool-description">
+                        Web server scanner that performs comprehensive tests against web servers 
+                        for multiple items including dangerous files, outdated server software, 
+                        and version-specific problems.
+                    </p>
+                    <div class="tool-category">Web Security</div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="tool-name">Nmap</h3>
+                    <p class="tool-description">
+                        Network discovery and security auditing tool. Used for network inventory, 
+                        managing service upgrade schedules, and monitoring host or service uptime.
+                    </p>
+                    <div class="tool-category">Network Scanning</div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-key"></i>
+                    </div>
+                    <h3 class="tool-name">John the Ripper</h3>
+                    <p class="tool-description">
+                        Fast password cracker, currently available for many flavors of Unix, 
+                        Windows, DOS, BeOS, and OpenVMS. Designed to detect weak passwords.
+                    </p>
+                    <div class="tool-category">Password Cracking</div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3 class="tool-name">Metasploit</h3>
+                    <p class="tool-description">
+                        Penetration testing framework that makes hacking simple. Provides 
+                        information about security vulnerabilities and aids in penetration 
+                        testing and IDS signature development.
+                    </p>
+                    <div class="tool-category">Exploitation</div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3 class="tool-name">Wireshark</h3>
+                    <p class="tool-description">
+                        Network protocol analyzer that lets you capture and interactively 
+                        browse the traffic running on a computer network.
+                    </p>
+                    <div class="tool-category">Network Analysis</div>
+                </div>
+
+                <div class="tool-card">
+                    <div class="tool-icon">
+                        <i class="fas fa-spider"></i>
+                    </div>
+                    <h3 class="tool-name">Burp Suite</h3>
+                    <p class="tool-description">
+                        Web application security testing platform. Provides a comprehensive 
+                        set of tools for testing web application security.
+                    </p>
+                    <div class="tool-category">Web Testing</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Connect with me through these platforms</p>
+            <div class="social-links">
+                <a href="https://instagram.com/labinot.kuka" class="social-link" target="_blank" rel="noopener">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+                <a href="https://linkedin.com/in/labinotkuka" class="social-link" target="_blank" rel="noopener">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/labikuka" class="social-link" target="_blank" rel="noopener">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="mailto:labikuka99@email.com" class="social-link">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Labinot Kuka. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
